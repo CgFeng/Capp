@@ -1,1 +1,1 @@
-include ':app', ':baselib', ':widgets'
+include ':app', ':baselib', ':widgets', ':imageloader'

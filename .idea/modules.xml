@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Capp.iml" filepath="$PROJECT_DIR$/Capp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselib/baselib.iml" filepath="$PROJECT_DIR$/baselib/baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/widgets/widgets.iml" filepath="$PROJECT_DIR$/widgets/widgets.iml" />
     </modules>
   </component>
