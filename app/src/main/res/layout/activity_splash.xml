@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.github.chengang.capp.business.SplashActivity">
 
-    <com.github.chengang.widgets.RecyclerImageView
+    <ImageView
         android:id="@+id/ivCloseGuide"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -40,34 +40,34 @@
             android:layout_marginBottom="45dp"
             android:orientation="horizontal">
 
-            <com.github.chengang.widgets.RecyclerImageView
+            <ImageView
                 android:id="@+id/ivGuide1"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
                 android:src="@drawable/welcome_selected" />
 
-            <com.github.chengang.widgets.RecyclerImageView
+            <ImageView
                 android:id="@+id/ivGuide2"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/welcome_unselected" />
 
-            <com.github.chengang.widgets.RecyclerImageView
+            <ImageView
                 android:id="@+id/ivGuide3"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/welcome_unselected" />
 
-            <com.github.chengang.widgets.RecyclerImageView
+            <ImageView
                 android:id="@+id/ivGuide4"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/welcome_unselected" />
 
-            <com.github.chengang.widgets.RecyclerImageView
+            <ImageView
                 android:id="@+id/ivGuide5"
                 android:layout_width="10dp"
                 android:layout_height="10dp"

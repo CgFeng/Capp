@@ -6,11 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.github.chengang.base.acitivity.BaseActivity;
 import com.github.chengang.base.adapter.BaseViewPagerAdapter;
 import com.github.chengang.capp.R;
-import com.github.chengang.widgets.RecyclerImageView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -24,22 +24,22 @@ import static com.squareup.picasso.MemoryPolicy.NO_STORE;
 public class SplashActivity extends BaseActivity implements ViewPager.OnPageChangeListener, View.OnClickListener {
 
     @Bind(R.id.ivGuide1)
-    RecyclerImageView ivGuide1;
+    ImageView ivGuide1;
 
     @Bind(R.id.ivGuide2)
-    RecyclerImageView ivGuide2;
+    ImageView ivGuide2;
 
     @Bind(R.id.ivGuide3)
-    RecyclerImageView ivGuide3;
+    ImageView ivGuide3;
 
     @Bind(R.id.ivGuide4)
-    RecyclerImageView ivGuide4;
+    ImageView ivGuide4;
 
     @Bind(R.id.ivGuide5)
-    RecyclerImageView ivGuide5;
+    ImageView ivGuide5;
 
     @Bind(R.id.ivCloseGuide)
-    RecyclerImageView ivCloseGuide;
+    ImageView ivCloseGuide;
 
     @Bind(R.id.btnStart)
     Button btnStart;
@@ -84,8 +84,7 @@ public class SplashActivity extends BaseActivity implements ViewPager.OnPageChan
         LayoutInflater inflater = getLayoutInflater();
         for (int imgResId : imgResIds) {
             View view = inflater.inflate(R.layout.splash_item, null);
-//            ((ImageView) view.findViewById(R.id.image_view)).setImageResource(imgResId);
-            RecyclerImageView imageView = (RecyclerImageView) view.findViewById(R.id.image_view);
+            ImageView imageView = (ImageView) view.findViewById(R.id.image_view);
             Picasso.with(this).load(imgResId).memoryPolicy(NO_CACHE, NO_STORE).into(imageView);
             viewList.add(view);
         }
