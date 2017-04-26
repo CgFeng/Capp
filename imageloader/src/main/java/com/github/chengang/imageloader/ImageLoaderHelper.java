@@ -1,4 +1,4 @@
-package com.chengang.github.imageloader;
+package com.github.chengang.imageloader;
 
 /**
  * Created by fengchengang on 2017/4/6.

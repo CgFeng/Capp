@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.github.chengang.capp">
 
     <application
@@ -13,13 +14,18 @@
         <activity android:name=".business.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".business.SplashActivity" />
         <activity android:name=".business.LoginActivity" />
-        <activity android:name=".business.HomeActivity"></activity>
+        <activity android:name=".business.HomeActivity" />
+
+        <!--Glide配置-->
+        <meta-data
+            android:name="com.github.chengang.imageloader.glide.GlideConfigModule"
+            android:value="GlideModule" />
+
     </application>
 
 </manifest>

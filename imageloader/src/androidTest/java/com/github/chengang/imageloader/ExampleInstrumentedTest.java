@@ -1,4 +1,4 @@
-package com.chengang.github.imageloader;
+package com.github.chengang.imageloader;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
